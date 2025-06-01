@@ -1,0 +1,10 @@
+saved_models filter=lfs diff=lfs merge=lfs -text
+utils.py filter=lfs diff=lfs merge=lfs -text
+datasets filter=lfs diff=lfs merge=lfs -text
+environment.yml filter=lfs diff=lfs merge=lfs -text
+evaluation_supp.py filter=lfs diff=lfs merge=lfs -text
+ppis filter=lfs diff=lfs merge=lfs -text
+raw filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text
+main.py filter=lfs diff=lfs merge=lfs -text
+models filter=lfs diff=lfs merge=lfs -text
