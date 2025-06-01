@@ -27,6 +27,8 @@ python -u main.py --dataset=ppis --trainset=Train_335 --testset=Test_60 --epochs
 
 2. `ppis/dataset.py` generates the datasets for training and evaluating.
 
-3. `ppis/train.py` is the code for training and evaluating.
+3. `ppis/train.py` is the code for training models.
 
-4. `models` contains the codes of network architectures of our model.
+4. `ppis/evaluate.py` is the code for evaluating model performance.
+
+5. `models` contains the codes of network architectures of our model.
