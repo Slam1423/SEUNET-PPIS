@@ -7,7 +7,7 @@ import torch.multiprocessing as mp
 from e3nn.o3 import Irreps, spherical_harmonics
 from models.balanced_irreps import BalancedIrreps, WeightBalancedIrreps
 from ppis.train import train
-from models.segnn.segnn import SEUNET
+from models.seunet.seunet import SEUNET
 
 
 if __name__ == "__main__":
