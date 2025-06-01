@@ -32,3 +32,7 @@ python -u main.py --dataset=ppis --trainset=Train_335 --testset=Test_60 --epochs
 4. `ppis/evaluate.py` is the code for evaluating model performance.
 
 5. `models` contains the codes of network architectures of our model.
+
+6. `datasets` contains the processed data files for training.
+
+7.  `saved_models` contains the trained parameters of our model during training.
