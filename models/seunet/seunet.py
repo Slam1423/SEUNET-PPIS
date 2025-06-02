@@ -7,7 +7,6 @@ from torch_geometric.nn import MessagePassing, global_mean_pool, global_add_pool
 from e3nn.nn import BatchNorm
 import numpy as np
 from e3nn.o3 import Irreps, spherical_harmonics
-
 from .o3_building_blocks import O3TensorProduct, O3TensorProductSwishGate
 from .instance_norm import InstanceNorm
 
