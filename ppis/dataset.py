@@ -99,13 +99,13 @@ class ProteinDataset(InMemoryDataset):
         path = './raw/Dataset/'
 
         file = open(path + self.partition_to_file[self.partition], 'rb')
-        train_dict = pickle.load(file)
+        partition_dict = pickle.load(file)
         file.close()
         feature_path = './raw/Feature/'
         data_list = []
         cnt = 0
-        for protein in train_dict:
-            label = torch.tensor(train_dict[protein][-1], dtype=int)
+        for protein in partition_dict:
+            label = torch.tensor(partition_dict[protein][-1], dtype=int)
             pssm = np.load(feature_path + 'pssm/' + protein + '.npy')
             resAF = np.load(feature_path + 'resAF/' + protein + '.npy')
             dssp = np.load(feature_path + 'dssp/' + protein + '.npy')
