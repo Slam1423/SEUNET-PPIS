@@ -47,7 +47,7 @@ if __name__ == "__main__":
                         help='K.')
     parser.add_argument('--w', type=float, default=1/3,
                         help='w.')
-    parser.add_argument('--model', type=str, default="segnn",
+    parser.add_argument('--model', type=str, default="seunet",
                         help='Model name')
     parser.add_argument('--hidden_features', type=int, default=128,
                         help='max degree of hidden rep')
