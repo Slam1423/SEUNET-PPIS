@@ -105,6 +105,8 @@ class ProteinDataset(InMemoryDataset):
         data_list = []
         cnt = 0
         for protein in partition_dict:
+            if protein == '2j3rA':
+                continue
             label = torch.tensor(partition_dict[protein][-1], dtype=int)
             pssm = np.load(feature_path + 'pssm/' + protein + '.npy')
             resAF = np.load(feature_path + 'resAF/' + protein + '.npy')
